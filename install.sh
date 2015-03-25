@@ -4,7 +4,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew install \
   boost	\
   caskroom/cask/brew-cask \
-  cmake	\	
+  cmake	\
   git \
   leiningen \
   mongodb \
