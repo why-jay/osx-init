@@ -20,7 +20,6 @@ brew install \
 ;
 brew cask install \
   clion-eap \
-  evernote \
   firefox \
   flash \
   google-chrome \
