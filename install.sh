@@ -22,6 +22,7 @@ brew cask install \
   clion-eap \
   evernote \
   firefox \
+  flash \
   google-chrome \
   java \
   kindle \
