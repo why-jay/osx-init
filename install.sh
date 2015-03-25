@@ -16,7 +16,6 @@ brew install \
   pssh \
   redis \
   tor \
-  vtk \
 ;
 brew cask install \
   clion-eap \
