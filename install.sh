@@ -6,7 +6,7 @@ brew install \
   caskroom/cask/brew-cask \
   cmake	\	
   git \
-  leiningen	\
+  leiningen \
   mongodb \
   mysql \
   nmap \
