@@ -47,3 +47,5 @@ brew cask install \
   vmware-fusion \
   webstorm \
 ;
+
+git config --global credential.helper osxkeychain; # activate git credentials storage
