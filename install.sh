@@ -1,5 +1,7 @@
 #!/usr/bin/bash
 
+defaults write com.apple.finder AppleShowAllFiles YES; # show hidden files
+
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)";
 brew install \
   boost	\
