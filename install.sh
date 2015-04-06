@@ -28,11 +28,13 @@ brew install \
   redis \
   tor \
 ;
+brew tap caskroom/versions;
 brew cask install \
   clion-eap \
   firefox \
   flash \
   google-chrome \
+  google-chrome-canary \
   java \
   kindle \
   mactracker \
