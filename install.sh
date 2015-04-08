@@ -30,6 +30,7 @@ brew install \
 ;
 brew tap caskroom/versions;
 brew cask install \
+  adium \
   clion-rc-bundled \
   firefox \
   flash \
