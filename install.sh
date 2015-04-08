@@ -36,6 +36,7 @@ brew cask install \
   google-chrome \
   google-chrome-canary \
   java \
+  keka \
   kindle \
   mactracker \
   microsoft-office \
