@@ -30,7 +30,7 @@ brew install \
 ;
 brew tap caskroom/versions;
 brew cask install \
-  clion-rc \
+  clion-rc-bundled \
   firefox \
   flash \
   google-chrome \
