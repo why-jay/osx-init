@@ -57,3 +57,8 @@ brew cask install \
 
 git config --global credential.helper osxkeychain; # activate git credentials storage
 git config --global push.default simple; # default Git push behavior is set to `simple`
+
+echo "Setting up MongoDB...";
+sudo mkdir -p /data/db;
+ln -sfv /usr/local/opt/mongodb/*.plist ~/Library/LaunchAgents;
+launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist;
