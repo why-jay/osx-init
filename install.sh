@@ -46,6 +46,7 @@ brew cask install \
   spectacle \
   spotify \
   sublime-text \
+  vagrant \
   virtualbox \
   vlc \
   vmware-fusion \
