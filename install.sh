@@ -30,6 +30,7 @@ brew install \
 ;
 brew tap caskroom/versions;
 brew cask install \
+  1password \
   adium \
   clion-rc-bundled \
   firefox \
