@@ -27,7 +27,7 @@ brew install \
   pssh \
   python \
   redis \
-  swig \
+  homebrew/versions/swig304 \
   tor \
 ;
 brew tap caskroom/versions;
