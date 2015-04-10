@@ -25,6 +25,7 @@ brew install \
   openssl \
   privoxy \
   pssh \
+  python \
   redis \
   tor \
 ;
