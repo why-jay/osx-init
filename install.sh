@@ -65,3 +65,5 @@ echo "Setting up MongoDB...";
 sudo mkdir -p /data/db;
 ln -sfv /usr/local/opt/mongodb/*.plist ~/Library/LaunchAgents;
 launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist;
+
+vagrant box add jhcook/osx-yosemite-10.10;
