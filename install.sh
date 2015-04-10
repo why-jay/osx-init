@@ -66,4 +66,15 @@ sudo mkdir -p /data/db;
 ln -sfv /usr/local/opt/mongodb/*.plist ~/Library/LaunchAgents;
 launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist;
 
+# install Oracle VM VirtualBox Extension Pack (needed to load OS X on VirtualBox)
+#
+export version=$(/usr/bin/vboxmanage -v) &&
+export var1=$(echo ${version} | cut -d 'r' -f 1) &&
+export var2=$(echo ${version} | cut -d 'r' -f 2) &&
+export file="Oracle_VM_VirtualBox_Extension_Pack-${var1}-${var2}.vbox-extpack" &&
+curl --silent --location http://download.virtualbox.org/virtualbox/${var1}/${file} \
+  -o ~/Downloads/${file} && VBoxManage extpack install ~/Downloads/${file} --replace &&
+rm ~/Downloads/${file} &&
+unset version var1 var2 file;
+
 vagrant box add jhcook/osx-yosemite-10.10;
