@@ -8,8 +8,8 @@ defaults write com.apple.dock autohide-delay -float 0; # remove Dock show delay
 defaults write com.apple.dock autohide-time-modifier -float 0; # remove Dock show delay
 defaults write com.apple.dock orientation right; # place Dock on the right side of screen
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true; # show all file extensions
-killall Dock;
-killall Finder;
+killall Dock 2>/dev/null;
+killall Finder 2>/dev/null;
 
 # install Xcode Command Line Tools
 # https://github.com/timsutton/osx-vm-templates/blob/ce8df8a7468faa7c5312444ece1b977c1b2f77a4/scripts/xcode-cli-tools.sh
