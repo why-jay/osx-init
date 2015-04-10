@@ -67,7 +67,7 @@ ln -sfv /usr/local/opt/mongodb/*.plist ~/Library/LaunchAgents;
 launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist;
 
 # install Oracle VM VirtualBox Extension Pack (needed to load OS X on VirtualBox)
-#
+# http://alanthing.com/blog/2013/03/17/virtualbox-extension-pack-with-one-line
 export version=$(/usr/bin/vboxmanage -v) &&
 export var1=$(echo ${version} | cut -d 'r' -f 1) &&
 export var2=$(echo ${version} | cut -d 'r' -f 2) &&
