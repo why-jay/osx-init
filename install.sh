@@ -33,6 +33,7 @@ brew cask install \
   1password \
   adium \
   clion-rc-bundled \
+  dropbox \
   firefox \
   flash \
   google-chrome \
