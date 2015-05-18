@@ -50,6 +50,7 @@ brew cask install \
   flash \
   google-chrome \
   google-chrome-canary \
+  haskell-platform \
   java \
   keka \
   kindle \
