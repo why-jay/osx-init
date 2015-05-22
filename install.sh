@@ -15,6 +15,13 @@ echo "Setting up ~/.bash_profile...";
 touch ~/.bash_profile;
 echo "export PS1=\"\w $ \";" >> ~/.bash_profile;
 
+echo "Setting up ~/.vimrc...";
+touch ~/.vimrc;
+echo "get number" >> ~/.vimrc;
+echo "" >> ~/.vimrc;
+echo "highlight OverLength ctermbg=red ctermfg=white guibg=#592929" >> ~/.vimrc;
+echo "match OverLength /\\%81v.\\+/" >> ~/.vimrc;
+
 # install Xcode Command Line Tools
 # https://github.com/timsutton/osx-vm-templates/blob/ce8df8a7468faa7c5312444ece1b977c1b2f77a4/scripts/xcode-cli-tools.sh
 touch /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress;
