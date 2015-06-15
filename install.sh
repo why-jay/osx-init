@@ -65,6 +65,7 @@ brew cask install \
   java \
   keka \
   kindle \
+  macs-fan-control \
   mactracker \
   microsoft-office \
   sequel-pro \
