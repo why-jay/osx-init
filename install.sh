@@ -68,6 +68,7 @@ brew cask install \
   macs-fan-control \
   mactracker \
   microsoft-office \
+  packer \
   sequel-pro \
   skype \
   silverlight \
