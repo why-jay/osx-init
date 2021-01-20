@@ -23,12 +23,12 @@ echo "highlight OverLength ctermbg=red ctermfg=white guibg=#592929" >> ~/.vimrc;
 echo "match OverLength /\\%81v.\\+/" >> ~/.vimrc;
 
 # install Xcode Command Line Tools
-# https://github.com/timsutton/osx-vm-templates/blob/dc2d3b29a12cfecb40d5ca6b839bd4c9c48f70bc/scripts/xcode-cli-tools.sh
+# https://github.com/w0de/osx-vm-templates/blob/116bb0a3ea83557bafc8d8b754d1dd0497e2e181/scripts/xcode-cli-tools.sh
 touch /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress;
 PROD=$(softwareupdate -l |
   grep "\*.*Command Line" |
   tail -n 1 | awk -F"*" '{print $2}' |
-  sed -e 's/^ *//' |
+  sed 's/Label: //g' |
   tr -d '\n')
 softwareupdate -i "$PROD" --verbose;
 
